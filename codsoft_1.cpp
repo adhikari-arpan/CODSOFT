@@ -13,8 +13,8 @@ int main()
     int num,guessnum,attempts=0;
     num = (rand()%1000)+1;
 
-    cout<<"Welcome to Number Guessing Game"<<endl;
-    cout<<"Guidelines: A random number is generated between 1 and 1000. You are required to guess the number. We Provide feedback on whether the guess is too high or too low. You can proceed accordingly and guess the number"<<endl;
+    cout <<"Welcome to Number Guessing Game"<<endl;
+    cout <<"Guidelines: A random number is generated between 1 and 1000. You are required to guess the number. We Provide feedback on whether the guess is too high or too low. You can proceed accordingly and guess the number"<<endl;
 
     while(1)
     {
