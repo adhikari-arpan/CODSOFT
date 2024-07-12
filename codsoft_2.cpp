@@ -6,9 +6,9 @@ using namespace std;
 int main()
 {
     float num1,num2;
-    char choice;
+    char choice,run;
     float sum,sub,pro,div;
-    while(1)
+    while(run!='n')
     {
         cout<<endl<<"***************CALCULATOR****************"<<endl;
         cout<<"Enter first number"<<endl;
@@ -47,10 +47,12 @@ int main()
             }
             break;
 
-            case '!':exit(0);
+            case '!' : exit(0);
 
-            default:printf("wrong choice");
+            default : printf("wrong choice");
         }
+        cout << "Do you want to perform more operations (y/n)"<<endl;
+        cin>>run;
     }
     return 0;
 }
